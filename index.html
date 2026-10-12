@@ -41,9 +41,8 @@
     <!-- HERO -->
     <section id="home" class="hero">
       <div class="container">
-        <p class="hero-eyebrow">Software Developer · Karachi, Pakistan</p>
         <h1>Muhammad Sufyan Ali</h1>
-        <p class="intro">I build backend systems and APIs that solve real problems. I'm currently a Software Engineering Intern at Quantinno AI, working on AI-powered tools and Spring Boot services.</p>
+        <p class="intro">Software Developer · Karachi, Pakistan — I build backend systems and APIs that solve real problems. Currently a Software Engineering Intern at Quantinno AI, working on AI-powered tools and Spring Boot services.</p>
         <div class="hero-links">
           <a href="#projects" class="btn btn-primary">View my work</a>
           <a href="#contact" class="btn btn-secondary">Get in touch</a>
@@ -82,33 +81,17 @@
       <div class="container">
         <h2>Skills</h2>
         <div class="skills">
-          <div class="skill-group">
-            <h3>Languages</h3>
-            <ul class="tags"><li>Python</li><li>Java</li><li>SQL</li><li>C/C++</li><li>JavaScript</li><li>Bash</li></ul>
+          <div class="skill-group skill-group--core">
+            <h3>Core</h3>
+            <ul class="tags"><li>C/C++</li><li>Python</li><li>Java</li><li>SQL</li><li>JavaScript</li><li>Spring Boot</li><li>FastAPI</li><li>REST APIs</li><li>React</li><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li></ul>
           </div>
-          <div class="skill-group">
-            <h3>Backend</h3>
-            <ul class="tags"><li>Spring Boot</li><li>FastAPI</li><li>REST APIs</li></ul>
-          </div>
-          <div class="skill-group">
-            <h3>Frontend</h3>
-            <ul class="tags"><li>React</li></ul>
-          </div>
-          <div class="skill-group">
+          <div class="skill-group skill-group--ai">
             <h3>AI / ML</h3>
             <ul class="tags"><li>LangChain</li><li>LangGraph</li><li>Scikit-learn</li><li>NumPy</li><li>Pandas</li></ul>
           </div>
-          <div class="skill-group">
-            <h3>Databases</h3>
-            <ul class="tags"><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li></ul>
-          </div>
-          <div class="skill-group">
-            <h3>Testing</h3>
-            <ul class="tags"><li>Playwright</li><li>Behave (BDD)</li><li>Apache JMeter</li></ul>
-          </div>
-          <div class="skill-group">
-            <h3>Tools</h3>
-            <ul class="tags"><li>Git</li><li>Linux</li><li>Postman</li><li>Trello</li></ul>
+          <div class="skill-group skill-group--tools">
+            <h3>Tools & Testing</h3>
+            <ul class="tags"><li>Git</li><li>Linux</li><li>Postman</li><li>Playwright</li><li>Behave (BDD)</li><li>Apache JMeter</li><li>Bash</li><li>Trello</li></ul>
           </div>
         </div>
       </div>
@@ -151,6 +134,7 @@
               <ul class="cert-list">
                 <li><strong>Machine Learning Specialization</strong><span>DeepLearning.AI via Coursera · 2025</span></li>
                 <li><strong>SQL Basic</strong><span>HackerRank · 2026</span></li>
+                <li><strong>SQL Intermediate</strong><span>HackerRank · 2026</span></li>
               </ul>
             </div>
           </div>
@@ -165,16 +149,6 @@
         <div class="projects-grid">
 
           <article class="card project">
-            <h3>Diabetes Prediction</h3>
-            <dl>
-              <dt>Problem</dt><dd>Detecting diabetes early through data analysis</dd>
-              <dt>Build</dt><dd>A binary classification model using SVM with data preprocessing and feature selection</dd>
-              <dt>Outcome</dt><dd>Model evaluated using accuracy metrics</dd>
-            </dl>
-            <ul class="tags"><li>Python</li><li>Scikit-learn</li></ul>
-          </article>
-
-          <article class="card project">
             <h3>ShopHub — E-commerce Store</h3>
             <dl>
               <dt>Problem</dt><dd>Building a secure e-commerce backend from scratch</dd>
@@ -185,16 +159,6 @@
           </article>
 
           <article class="card project">
-            <h3>Car Price Prediction</h3>
-            <dl>
-              <dt>Problem</dt><dd>Predicting car prices accurately without overfitting</dd>
-              <dt>Build</dt><dd>Linear and Lasso regression with regularization</dd>
-              <dt>Outcome</dt><dd>Reduced overfitting and improved generalization</dd>
-            </dl>
-            <ul class="tags"><li>Python</li><li>Scikit-learn</li></ul>
-          </article>
-
-          <article class="card project">
             <h3>AI Smart Study Planner</h3>
             <dl>
               <dt>Problem</dt><dd>Creating personalized study schedules that actually work</dd>
@@ -202,6 +166,26 @@
               <dt>Outcome</dt><dd>Optimized schedules that respect scheduling constraints</dd>
             </dl>
             <ul class="tags"><li>Python</li><li>Genetic Algorithm</li><li>CSP</li></ul>
+          </article>
+
+          <article class="card project">
+            <h3>Diabetes Prediction</h3>
+            <dl>
+              <dt>Problem</dt><dd>Detecting diabetes early through data analysis</dd>
+              <dt>Build</dt><dd>A binary classification model using SVM with data preprocessing and feature selection</dd>
+              <dt>Outcome</dt><dd>Model evaluated using accuracy metrics</dd>
+            </dl>
+            <ul class="tags"><li>Python</li><li>Scikit-learn</li></ul>
+          </article>
+
+          <article class="card project">
+            <h3>Car Price Prediction</h3>
+            <dl>
+              <dt>Problem</dt><dd>Predicting car prices accurately without overfitting</dd>
+              <dt>Build</dt><dd>Linear and Lasso regression with regularization</dd>
+              <dt>Outcome</dt><dd>Reduced overfitting and improved generalization</dd>
+            </dl>
+            <ul class="tags"><li>Python</li><li>Scikit-learn</li></ul>
           </article>
 
         </div>
@@ -222,7 +206,6 @@
             <dt>Location</dt>
             <dd>Karachi, Pakistan</dd>
           </dl>
-          <!-- TODO: replace the "#" placeholders below with your real profile URLs -->
           <ul class="social-links">
             <li><a href="https://github.com/SUF-13" target="_blank" rel="noopener">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/muhammad-sufyan-ali13/" target="_blank" rel="noopener">LinkedIn</a></li>
